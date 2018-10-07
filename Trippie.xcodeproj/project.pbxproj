@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871B558B2164075200BD258A /* SampleDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B558A2164075200BD258A /* SampleDataLoader.swift */; };
+		871B558E2164449500BD258A /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871B558D2164449500BD258A /* LoadingViewController.swift */; };
 		875F5FBD2162DF7300695A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F5FBC2162DF7300695A0A /* AppDelegate.swift */; };
 		875F5FBF2162DF7300695A0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F5FBE2162DF7300695A0A /* ViewController.swift */; };
 		875F5FC22162DF7300695A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F5FC02162DF7300695A0A /* Main.storyboard */; };
 		875F5FC52162DF7300695A0A /* Trippie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 875F5FC32162DF7300695A0A /* Trippie.xcdatamodeld */; };
 		875F5FC72162DF7300695A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F5FC62162DF7300695A0A /* Assets.xcassets */; };
 		875F5FCA2162DF7300695A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875F5FC82162DF7300695A0A /* LaunchScreen.storyboard */; };
+		875F5FD22162E64B00695A0A /* ItineraryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F5FD12162E64B00695A0A /* ItineraryItemCell.swift */; };
+		875F5FD62162E81300695A0A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F5FD52162E81300695A0A /* DetailViewController.swift */; };
+		87AAC8222162F97600AD99B8 /* MyTripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AAC8212162F97600AD99B8 /* MyTripCell.swift */; };
+		87D9A1312166B35400ECD0EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9A1302166B35400ECD0EE /* LoginViewController.swift */; };
+		87D9A1342166BFE700ECD0EE /* MapviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9A1332166BFE700ECD0EE /* MapviewController.swift */; };
+		87D9A1362166C5BD00ECD0EE /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9A1352166C5BD00ECD0EE /* Artwork.swift */; };
+		87D9A1382169802E00ECD0EE /* HeadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9A1372169802E00ECD0EE /* HeadingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		871B558A2164075200BD258A /* SampleDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataLoader.swift; sourceTree = "<group>"; };
+		871B558D2164449500BD258A /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		875F5FB92162DF7300695A0A /* Trippie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trippie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875F5FBC2162DF7300695A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875F5FBE2162DF7300695A0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		875F5FC62162DF7300695A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875F5FC92162DF7300695A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875F5FCB2162DF7300695A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875F5FD12162E64B00695A0A /* ItineraryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryItemCell.swift; sourceTree = "<group>"; };
+		875F5FD52162E81300695A0A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		87AAC8212162F97600AD99B8 /* MyTripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripCell.swift; sourceTree = "<group>"; };
+		87D9A1302166B35400ECD0EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87D9A1332166BFE700ECD0EE /* MapviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapviewController.swift; sourceTree = "<group>"; };
+		87D9A1352166C5BD00ECD0EE /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		87D9A1372169802E00ECD0EE /* HeadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871B558C2164227900BD258A /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				875F5FD52162E81300695A0A /* DetailViewController.swift */,
+				875F5FD12162E64B00695A0A /* ItineraryItemCell.swift */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
 		875F5FB02162DF7300695A0A = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +83,13 @@
 		875F5FBB2162DF7300695A0A /* Trippie */ = {
 			isa = PBXGroup;
 			children = (
+				87D9A139216985E500ECD0EE /* Sandbox */,
+				87D9A1322166BFD100ECD0EE /* Maps */,
+				87D9A12F2166B34100ECD0EE /* LogIn */,
+				871B558C2164227900BD258A /* Itinerary */,
+				87AAC8202162F3B000AD99B8 /* Trip */,
+				871B558A2164075200BD258A /* SampleDataLoader.swift */,
 				875F5FBC2162DF7300695A0A /* AppDelegate.swift */,
-				875F5FBE2162DF7300695A0A /* ViewController.swift */,
 				875F5FC02162DF7300695A0A /* Main.storyboard */,
 				875F5FC62162DF7300695A0A /* Assets.xcassets */,
 				875F5FC82162DF7300695A0A /* LaunchScreen.storyboard */,
@@ -65,6 +97,41 @@
 				875F5FC32162DF7300695A0A /* Trippie.xcdatamodeld */,
 			);
 			path = Trippie;
+			sourceTree = "<group>";
+		};
+		87AAC8202162F3B000AD99B8 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				875F5FBE2162DF7300695A0A /* ViewController.swift */,
+				87AAC8212162F97600AD99B8 /* MyTripCell.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		87D9A12F2166B34100ECD0EE /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				87D9A1302166B35400ECD0EE /* LoginViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		87D9A1322166BFD100ECD0EE /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				87D9A1332166BFE700ECD0EE /* MapviewController.swift */,
+				87D9A1352166C5BD00ECD0EE /* Artwork.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		87D9A139216985E500ECD0EE /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				87D9A1372169802E00ECD0EE /* HeadingCell.swift */,
+				871B558D2164449500BD258A /* LoadingViewController.swift */,
+			);
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D9A1312166B35400ECD0EE /* LoginViewController.swift in Sources */,
+				87D9A1362166C5BD00ECD0EE /* Artwork.swift in Sources */,
+				87AAC8222162F97600AD99B8 /* MyTripCell.swift in Sources */,
+				875F5FD22162E64B00695A0A /* ItineraryItemCell.swift in Sources */,
 				875F5FBF2162DF7300695A0A /* ViewController.swift in Sources */,
+				871B558E2164449500BD258A /* LoadingViewController.swift in Sources */,
 				875F5FC52162DF7300695A0A /* Trippie.xcdatamodeld in Sources */,
+				871B558B2164075200BD258A /* SampleDataLoader.swift in Sources */,
+				87D9A1382169802E00ECD0EE /* HeadingCell.swift in Sources */,
+				875F5FD62162E81300695A0A /* DetailViewController.swift in Sources */,
 				875F5FBD2162DF7300695A0A /* AppDelegate.swift in Sources */,
+				87D9A1342166BFE700ECD0EE /* MapviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
