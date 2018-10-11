@@ -34,7 +34,7 @@ class SampleDataLoader{
         samptrip_1.setValue("Paris", forKeyPath: "name")
         samptrip_1.setValue("paris-image", forKeyPath: "image")
         samptrip_1.setValue("Day One", forKeyPath: "dates")
-        samptrip_1.setValue(false,forKeyPath:"isHeading")
+        
         
         do {
             try managedContext.save()
@@ -49,7 +49,7 @@ class SampleDataLoader{
         samptrip_2.setValue("Rome", forKeyPath: "name")
         samptrip_2.setValue("rome-image", forKeyPath: "image")
         samptrip_2.setValue("Day Two", forKeyPath: "dates")
-        samptrip_2.setValue(false,forKeyPath:"isHeading")
+        
         
         do {
             try managedContext.save()
@@ -64,7 +64,7 @@ class SampleDataLoader{
         samptrip_3.setValue("New York", forKeyPath: "name")
         samptrip_3.setValue("ny-image", forKeyPath: "image")
         samptrip_3.setValue("Day Three", forKeyPath: "dates")
-        samptrip_3.setValue(false,forKeyPath:"isHeading")
+        
         
         do {
             try managedContext.save()

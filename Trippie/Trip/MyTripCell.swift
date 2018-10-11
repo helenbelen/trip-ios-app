@@ -21,5 +21,6 @@ class MyTripCell: UITableViewCell{
         self.tripName?.text = name
         self.tripImage?.image = UIImage(named: image)
         
+        
     }
 }
