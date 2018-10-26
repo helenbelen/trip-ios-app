@@ -11,7 +11,7 @@ This project is a conceptual application for a travel agent mobile application. 
 # New Features!
 
   - Showing Route To Locations via Map App
-  - 
+  
  # To Dos:
   - Replace Core Data with Cloud Storage
   - Create Login Functionality
